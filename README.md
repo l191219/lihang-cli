@@ -1,5 +1,5 @@
 # lihang-cli
-![Npm 版本](https://img.shields.io/badge/lihang-cli_v0.0.2-green)
+![Npm 版本](https://img.shields.io/badge/lihang-cli_v0.0.3-green)
 ## 📖简介
   - 用于快速搭建前端项目的命令行工具
   
