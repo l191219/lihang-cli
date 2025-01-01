@@ -14,7 +14,7 @@
 # 使用模板创建新项目
 lihang create
 
-# 执行项目问价夹名称并选择模板创建新项目
+# 执行项目文件夹名称并选择模板创建新项目
 
 lihang create [projectName]
 

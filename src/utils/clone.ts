@@ -10,8 +10,6 @@ const logger = createLogger({
         })
     }
 })
-
-
 const gitOptions :Partial<SimpleGitOptions> = {
     baseDir:process.cwd(),//当前工作目录
     binary:'git',//指定 git 二进制文件路径
