@@ -60,16 +60,12 @@ export async function create(projectName?:string){
         }
     }
 
-
     const templateName = await select({
         message:"请选择模版",
         choices:templateList
     })
     const info = templates.get(templateName)
-    console.log(info);
     if(info){
         clone(info.downloadUrl,projectName,['-b',info.branch])
     }
-    console.log("create",projectName);
-    
 }
