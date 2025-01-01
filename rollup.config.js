@@ -5,8 +5,6 @@ import externals from "rollup-plugin-node-externals";
 import json from "@rollup/plugin-json";
 import terser from "@rollup/plugin-terser";
 import typescript from 'rollup-plugin-typescript2';
-import { types } from 'sass';
-
 export default defineConfig([
     {
         input:{
